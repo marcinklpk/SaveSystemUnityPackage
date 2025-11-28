@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
 
-namespace Core
+namespace Mubtcez.SaveSystem
 {
     public static class SaveSystem
     {
@@ -13,7 +13,7 @@ namespace Core
 
         /// <summary>
         /// adds surrogate for type and base types,list is sorted so surrogates for child types will be prefered over their parent
-        /// </summary>
+        /// </summary>`
         public static void AddSerializationSurrogate(System.Type type, ISerializationSurrogate surrogate) => SerializationSurrogateSelector.AddSerializationSurrogate(type, surrogate);
 
         static public byte[] Serialize(object data)

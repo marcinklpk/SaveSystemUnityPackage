@@ -3,7 +3,7 @@ using System.Runtime.Serialization;
 using UnityEditor;
 using UnityEngine;
 
-namespace Core
+namespace Mubtcez.SaveSystem
 {
     public class IgnoreUnityObjectSurrogate : ISerializationSurrogate
     {

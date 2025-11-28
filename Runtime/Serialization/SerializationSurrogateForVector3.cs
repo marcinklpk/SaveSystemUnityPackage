@@ -1,7 +1,7 @@
 using System.Runtime.Serialization;
 using UnityEngine;
 
-namespace Core
+namespace Mubtcez.SaveSystem
 {
     internal class SerializationSurrogateForVector3 : ISerializationSurrogate
     {

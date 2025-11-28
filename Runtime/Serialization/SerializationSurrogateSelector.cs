@@ -3,7 +3,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using UnityEngine;
 
-namespace Core
+namespace Mubtcez.SaveSystem
 {
     internal class SerializationSurrogateSelector : SurrogateSelector
     {
