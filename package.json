@@ -1,0 +1,12 @@
+{
+  "name": "com.mubtcez.savesystem",
+  "version": "1.0.0",
+  "displayName": "Save System",
+  "description": "This is a unity package featuring save system based on binary formatter serialization and save to player prefs or txt file ",
+  "unity": "2021.3",
+  "author": {
+    "name": "Mubtcez",
+    "email": "marcinklpk@gmail.com",
+    "url": "https://github.com/marcinklpk/SaveSystemUnityPackage"
+  }
+}
